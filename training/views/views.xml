@@ -2,6 +2,22 @@
   <data>
     <!-- explicit list view definition -->
     <!--
+    <record model="ir.ui.view" id="capacitaciones_form_view">
+      <field name="name">capacitaciones.form</field>
+      <field name="model">capacitaciones.course</field>
+      <field name= "arch" type="xml">
+        <from string="Course Form">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="description"/>
+            </group>
+          </sheet>
+        </from>
+      </field>
+    </record>
+    -->
+    <!--
     <record model="ir.ui.view" id="capacitaciones.list">
       <field name="name">capacitaciones list</field>
       <field name="model">capacitaciones.capacitaciones</field>
