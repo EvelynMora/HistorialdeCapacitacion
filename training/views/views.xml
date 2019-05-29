@@ -1,5 +1,17 @@
 <odoo>
-  <data>
+  <!--
+    <record id="course_list_action" model="ir.actions.act_window">
+      <field name="name">Courses</field>
+      <field name="res_model">training.course</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="main_training_menu" name="Historial de capacitaciones"/>
+    <menuitem id="training_menu" name="Historial de capacitaciones" parent="main_training_menu"/>
+    <menuitem id="courses_menu" name="Courses" parent="training_menu" action="course_list_action"/>
+    
+    
+    
     <!-- explicit list view definition -->
     <!--
     <record model="ir.ui.view" id="capacitaciones_form_view">
@@ -72,5 +84,4 @@
     <menuitem name="Server to list" id="capacitaciones" parent="capacitaciones.menu_2"
               action="capacitaciones.action_server"/>
     -->
-  </data>
 </odoo>

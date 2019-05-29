@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-
 from odoo import models, fields, api
 
-# class capacitaciones(models.Model):
-#     _name = 'capacitaciones.capacitaciones'
-
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         self.value2 = float(self.value) / 100
+#class training(models.Model):
+#    _name = 'training.training'
+#    _description = '''  '''
+#    name = fields.Char(string="Title", required=True)
+#    description = fields.Text()
